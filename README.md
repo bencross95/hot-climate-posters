@@ -1,1 +1,1 @@
-# hot-climate-posters
+# Climate posters for hot people
