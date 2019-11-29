@@ -7,18 +7,114 @@ body {
 
 
 h1 {
-  font-size: 90px;
+  font-size: 120px;
   font-weight: 400;
+  line-height: 100px;
+  margin-top: 0px;
 }
 
 
+.extended-font {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inline {
+  display: inline;
+}
+
 .side-text {
-  max-width: 900px;
-  width: 40vw;
+  max-width: 930px;
+  /* width: 40vw; */
   line-height: 78px;
   text-align: justify;
   -moz-text-align-last: justify;
   text-align-last: justify;
+}
+
+
+.line-work {
+  position: absolute;
+  left: 0px;
+  top: 290px;
+  z-index: -1;
+}
+
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.some-div {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+
+.jesus-fuck {
+  position:fixed;
+  width: 842px;
+  left: 880px;
+  top: 290px;
+  z-index: -1;
+
+}
+
+
+
+.marquee {
+  font-family: nimbus-roman, serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+  width: 100vw;
+	line-height: 0px;
+	background-color: black;
+	color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-right: 100%;
+    animation: marquee 120s linear infinite;
+}
+
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+
+
+@media only screen and (max-width: 1700px) {
+  .side-text {
+    max-width: 900px;
+    width: 50vw;
+    line-height: 78px;
+  }
+
 }
 
 
@@ -27,17 +123,18 @@ h1 {
   .side-text {
     max-width: 1200px;
     width: 100vw;
-    line-height: 78px;
   }
 
-/* body {
-  background-color: lime;
-} */
 
 }
 
 
 @media only screen and (max-width: 600px) {
 
-
+  h1 {
+    line-height: 78px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 36px;
+  }
 }
