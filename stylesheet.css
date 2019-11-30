@@ -31,6 +31,8 @@ h1 {
   text-align: justify;
   -moz-text-align-last: justify;
   text-align-last: justify;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 
@@ -89,7 +91,7 @@ a:visited {
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 0px;
+  padding: 0;
   margin: 0;
 }
 
@@ -109,14 +111,14 @@ a:visited {
 
 
 
-@media only screen and (max-width: 1700px) {
+/* @media only screen and (max-width: 1700px) {
   .side-text {
     max-width: 900px;
     width: 50vw;
     line-height: 78px;
   }
 
-}
+} */
 
 
 
