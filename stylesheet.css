@@ -33,6 +33,7 @@ h1 {
   text-align-last: justify;
   padding-left: 1px;
   padding-right: 1px;
+  padding-top: 60px;
 }
 
 
@@ -77,38 +78,39 @@ a:visited {
 
 }
 
-
+.marquee-section {
+  position: relative;
+}
 
 .marquee {
-  font-family: nimbus-roman, serif;
-  font-weight: 400;
-  font-size: 30px;
+  position: absolute;
+  top: 1vh;
+  left: 0;
+  font-size: 3vw;
   font-style: italic;
-  width: 100vw;
-	line-height: 0px;
-	background-color: black;
-	color: white;
-  white-space: nowrap;
+  line-height: 1.1;
   overflow: hidden;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  color: white;
+  background-color: black;
+  margin-top: -10px;
 }
 
-.marquee p {
-    display: inline-block;
-    padding-right: 100%;
-    animation: marquee 120s linear infinite;
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3000vw);
+  }
 }
 
-
-@keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+.marquee span {
+  animation: moveLeft 400s infinite;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  animation-timing-function: linear;
 }
-
-
-
 
 
 /* @media only screen and (max-width: 1700px) {
