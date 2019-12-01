@@ -7,9 +7,9 @@ body {
 
 
 h1 {
-  font-size: 120px;
+  font-size: 90px;
   font-weight: 400;
-  line-height: 100px;
+  line-height: 80px;
   margin-top: 0px;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 .side-text {
-  max-width: 930px;
+  max-width: 750px;
   /* width: 40vw; */
   line-height: 78px;
   text-align: justify;
@@ -33,7 +33,7 @@ h1 {
   text-align-last: justify;
   padding-left: 1px;
   padding-right: 1px;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 
@@ -78,21 +78,25 @@ a:visited {
 
 }
 
+
+
 .marquee-section {
   position: relative;
 }
 
 .marquee {
-  position: absolute;
-  top: 1vh;
+  font-style: italic;
+  /* position: absolute; */
+  top: 10px;
   left: 0;
-  font-size: 3vw;
+  font-size: 30px;
   font-style: italic;
   line-height: 1.1;
   overflow: hidden;
   color: white;
   background-color: black;
-  margin-top: -10px;
+  margin-top: 0;
+  padding-bottom: 5px;
 }
 
 @keyframes moveLeft {
@@ -105,12 +109,18 @@ a:visited {
 }
 
 .marquee span {
-  animation: moveLeft 400s infinite;
+  animation: moveLeft 800s infinite;
   white-space: nowrap;
   display: block;
   position: relative;
   animation-timing-function: linear;
 }
+
+
+.tasteful-space {
+  width: 140px;
+}
+
 
 
 /* @media only screen and (max-width: 1700px) {
@@ -141,5 +151,16 @@ a:visited {
     font-size: 40px;
     font-weight: 400;
     line-height: 36px;
+  }
+
+  .tasteful-space {
+    width: 60px;
+  }
+
+  .line-work {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: -1;
   }
 }
