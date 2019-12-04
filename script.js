@@ -7,7 +7,16 @@ function makeMarquee () {
 
   marquee.innerHTML = marqueeText
 
+
+
+
 }
 
-
 makeMarquee()
+
+
+
+
+window.addEventListener('scroll', function(){
+  console.log("Hey")
+})
