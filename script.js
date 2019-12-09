@@ -16,7 +16,4 @@ makeMarquee()
 
 
 
-
-window.addEventListener('scroll', function(){
-  console.log("Hey")
-})
+// scroll width is relative to the length of the list of posters
