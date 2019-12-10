@@ -7,13 +7,17 @@ function makeMarquee () {
 
   marquee.innerHTML = marqueeText
 
-
-
-
 }
 
 makeMarquee()
 
 
 
-// scroll width is relative to the length of the list of posters
+
+function instaHover() {
+  document.getElementById("insta-link-shape").style.background = "lime"
+}
+
+function instaHoverReset() {
+  document.getElementById("insta-link-shape").style.background = "black"
+}

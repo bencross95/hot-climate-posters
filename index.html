@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154439855-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154439855-1');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hot Climate Posters</title>
@@ -57,10 +66,10 @@
 
 
 
-<div class="insta-link">
+<div class="insta-link" onmouseover="instaHover()" onmouseout="instaHoverReset()">
   <a href="https://www.instagram.com/hotclimateposters/"  target="_blank">
     <span><p class="insta-link-text">insta</p></span>
-    <div class="insta-link-shape"></div>
+    <div id="insta-link-shape" ></div>
   </a>
 </div>
 

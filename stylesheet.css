@@ -22,28 +22,27 @@ h1 {
   right: 20px;
 }
 
-.insta-link-shape {
-  /* position: absolute; */
-  /* top: 0;
-  left: 0; */
-  width: 209px;
-  height: 114px;
-  background: #000000;
-  filter: blur(18px);
+#insta-link-shape {
+  width: 200px;
+  height: 100px;
+  background: black;
+  filter: blur(16px);
   border-radius: 50%;
 }
+
+
 
 .insta-link-text {
   position: fixed;
   color: white;
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1;
   font-style: italic;
   margin: 0;
   z-index: 3;
-  padding-left: 40px;
-  padding-top: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 
