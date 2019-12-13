@@ -79,12 +79,13 @@ h1 {
 
 
 a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-decoration: none;
   color: black;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
@@ -141,13 +142,24 @@ a:visited {
 }
 
 
-
+.posters-img-div {
+  display: inline-block;
+}
 
 .posters-img {
   padding-right: 20px;
   height: 85vh;
   padding-bottom: 0px;
 }
+
+.poster-caption {
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+
+
 
 .marquee-section {
   position: relative;
@@ -299,6 +311,12 @@ a:visited {
     left: 0vw;
     position: static;
     margin: 0 auto;
+  }
+
+  .poster-caption {
+    font-size: 30px;
+    margin-top: 6px;
+    margin-bottom: 60px;
   }
 
 }
