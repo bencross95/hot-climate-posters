@@ -153,8 +153,10 @@ a:visited {
 }
 
 .poster-caption {
-  font-style: italic;
-  font-size: 30px;
+  font-family: nimbus-sans-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
   margin-top: 6px;
   margin-bottom: 30px;
 }
