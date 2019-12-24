@@ -69,6 +69,9 @@ h1 {
   position: fixed;
 }
 
+p {
+  margin: 0;
+}
 
 .line-work {
   position: absolute;
@@ -147,7 +150,7 @@ a:visited {
 }
 
 .posters-img {
-  padding-right: 20px;
+  /* padding-right: 20px; */
   height: 85vh;
   padding-bottom: 0px;
 }
@@ -159,9 +162,18 @@ a:visited {
   font-size: 14px;
   margin-top: 6px;
   margin-bottom: 30px;
+
 }
 
+.poster-caption-div {
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.poster-download-link {
+  text-align: right;
+}
 
 .marquee-section {
   position: relative;
