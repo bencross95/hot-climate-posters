@@ -122,7 +122,7 @@ a:visited {
 /* THIS SETS THE DESKTOP SIDEWAYS SCROLL LENGTH */
 
 .sideways-scroll-section {
-  height: 70vw;
+  height: 120vw;
 }
 
 
@@ -147,6 +147,7 @@ a:visited {
 
 .posters-img-div {
   display: inline-block;
+  padding-right: 30px;
 }
 
 .posters-img {
