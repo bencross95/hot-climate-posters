@@ -121,8 +121,12 @@ a:visited {
 
 /* THIS SETS THE DESKTOP SIDEWAYS SCROLL LENGTH */
 
+/* Try: Get width of poster as a variable then calculate it exactly */
+
+/* first step is to log the width of a poster */
+
 .sideways-scroll-section {
-  height: 120vw;
+  height: 160vw;
 }
 
 
