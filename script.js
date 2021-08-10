@@ -19,5 +19,5 @@ function instaHover() {
 }
 
 function instaHoverReset() {
-  document.getElementById("insta-link-shape").style.background = "black"
+  document.getElementById("insta-link-shape").style.background = "linear-gradient(90deg, rgba(0,194,255,1) 0%, rgba(255,0,92,1) 100%)"
 }
